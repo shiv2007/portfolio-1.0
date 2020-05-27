@@ -1,10 +1,11 @@
 h1 {
-    color: white;
+    color: rgb(255, 255, 255);
+   padding-left: 60px;
 }
 
-/* * {
+.header * {
     border: solid;
-} */
+} 
 
 .header{
     background-color: cadetblue;
@@ -32,3 +33,48 @@ h1 {
 p,h2{
     text-align: center;
 }
+
+a:link{
+color: blue;
+
+}
+a:visited{
+color: blue;
+
+}
+.menu{
+    margin-right: 30px;
+}
+.menu a{
+    margin-left: 20px;
+}
+.item{
+    position: relative;
+   
+}
+.item p{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ opacity:0;
+ 
+
+}
+.item a{
+    color: rgb(0, 39, 110);
+
+}
+
+.item:hover p{
+    opacity:1;
+   
+
+}
+.item:hover img{
+    opacity: 0.33;
+    
+
+}
+
+
